@@ -13,8 +13,6 @@ body{
     color: var(--primary-text-color); 
     font-family: Roboto, sans-serif; 
     font-size: 14px;
-    line-height: 1.71x;
-    letter-spacing: 0.03em;
 }
 
 .list {
@@ -37,7 +35,7 @@ body{
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
-    
+    letter-spacing: 0.03em;    
    }
 
 .logo-top{
@@ -47,7 +45,6 @@ body{
 .navigation-list .link {
     color: var(--title-text-color);
     font-weight: 500;
-    font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
 }
@@ -64,7 +61,6 @@ body{
 .contacts-list .link {
     color: var(--primary-text-color);
     font-weight: 500;
-    font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
 }
@@ -91,12 +87,10 @@ body{
 .hero-btn {
     background-color:var(--accent-color);
     color: var(--main-white-color);
-    font-style: inherit;
+    font-family: inherit;
     font-weight: 700;
     font-size: 16px;
-    line-height: 1.88;
-    display: flex;
-    align-items: center;
+    line-height: 1.88;  
     text-align: center;
     letter-spacing: 0.06em;
    }
@@ -104,10 +98,14 @@ body{
 .features-name {
     color: var(--title-text-color);
     font-weight: 700;
-    font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+}
+
+.features-text{
+    line-height: 1.71;
+    letter-spacing: 0.03em;
 }
 
 .title{
@@ -122,6 +120,10 @@ body{
 
 .team {
     background-color: var(--secondary-background-color);
+}
+
+.team-item{
+    background-color: var(--main-white-color);
 }
 
 .team-name{
@@ -158,14 +160,12 @@ body{
 
 .address-text {
     color: var(--main-white-color);
-    font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
 }
 
 .address .link{
     color: rgba(255, 255, 255, 0.6);
-    font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
 }
@@ -177,12 +177,17 @@ body{
 /* PORTFOLIO */
 .filter-btn{
   color: var(--title-text-color);
-  font-style: inherit;
+  font-family: inherit;
   font-weight: 500;
 font-size: 16px;
 line-height: 1.62;
 text-align: center;
 letter-spacing: 0.03em; 
+}
+
+.current-btn{
+    background-color: var(--accent-color);
+    color: var(--main-white-color)
 }
 
 .filter-btn:hover,
@@ -204,3 +209,4 @@ letter-spacing: 0.03em;
     line-height: 1.88;
     letter-spacing: 0.03em;
 }
+
